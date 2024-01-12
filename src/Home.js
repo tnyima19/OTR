@@ -36,9 +36,6 @@ function titleInputHandler(event){
     console.log("filtered List: ", filteredList);
 
 }
-
-
-
     return(<div>
             <h1>Search Title: </h1><input type='text' onChange={titleInputHandler}></input>
             {/* <StorySearchBar inputFilter={inputFilterHandler}/> */}
